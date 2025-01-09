@@ -1,0 +1,70 @@
+
+/* Global Styles */
+body {
+    background-color: #F8F8F8; /* Background Color */
+    color: #333333; /* Text Color */
+    font-family: Arial, sans-serif; /* Font Style */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #003366 !important;
+    border: none; 
+}
+
+.navbar-brand,
+.nav-link {
+    color: #4A90E2 !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #F5A623 !important;
+}
+
+
+/* Container Styles */
+.container {
+    padding: 20px;
+    background-color: white; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 20px; /* Spacing from the navbar */
+}
+
+/* Headings Styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #4A90E2; /* Primary Color for headings */
+    margin-bottom: 15px; /* Spacing below headings */
+}
+
+/* Link Styles */
+a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #50E3C2; /* Secondary Color for buttons */
+    color: white; /* White text for buttons */
+    border: none; /* Remove border */
+}
+
+.btn:hover {
+    background-color: #4A90E2; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333; /* Dark background for footer */
+    color: white; /* White text for footer */
+    text-align: center; /* Center text in footer */
+    padding: 10px; /* Padding for footer */
+    position: relative; /* Position relative for footer */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+}
