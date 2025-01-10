@@ -4,8 +4,13 @@
 
 {% block content %}
 <h1>{{ post.title }}</h1>
-<3>{{ post.subtitle }}</h3>
+<h3>{{ post.subtitle }}</h3>
 <small>{{ post.author }} | On: {{ post.created_on}}</small>
 <p>{{ post.body }}</p>
-<a href="{% url 'list' %}">Back to list</a>
+{% if user.is_authenticated %}
+    {% if user == post.author %}
+    <a href="{% url 'edit' post.id %}">Edit</a>|<a href="{% url 'delete' post.id %}">Delete</a>
+    {% endif %}
+{% endif %}
+
 {% endblock content %}
