@@ -26,6 +26,7 @@
                     <a class="nav-link" href="{% url 'home' %}">Home</a>
                     <a class="nav-link" href="{% url 'list' %}">Posts</a>
                     <a class="nav-link" href="{% url 'about' %}">About</a>
+                    <a class="nav-link" href="{% url 'archived' %}">Archived Posts</a>
 
                     {% if user.is_authenticated %}
                     <a class="nav-link" href="{% url 'new' %}">New Post</a>
